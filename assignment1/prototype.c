@@ -288,7 +288,15 @@ g_core.revision = 0.0;
   g_core.memory_size_gb = 1;
   g_core.revision = 1.2;
   return;
-  } 
+  }
+
+  if (!strcmp(model,"a03115"))
+  {
+  g_core.model = 0xa03115;
+  g_core.memory_size_gb = 1;
+  g_core.revision = 1.5;
+  return;
+  }
 
 
   // ** add more model types here
